@@ -1,0 +1,6 @@
+This Utility project is made to check if a particular instance is avaiable in a AZ
+
+We wanted to create an instance in all AZ of a region(us-east-1)
+We mentioned instance_type as t3.micro which gave an error
+
+So we used this utility function to get to logic to get only those az in a zone where the particular instance is available
